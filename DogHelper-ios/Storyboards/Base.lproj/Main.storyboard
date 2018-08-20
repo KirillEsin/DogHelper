@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cVy-ZE-Ggo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="MSs-PG-RJA">
+            <objects>
+                <navigationController storyboardIdentifier="UINavigationController" automaticallyAdjustsScrollViewInsets="NO" id="cVy-ZE-Ggo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="oqV-ej-mub">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.89803921568627454" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yzX-cE-eYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="-580.65967016491754"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vie-OM-ybB">
+            <objects>
+                <viewController storyboardIdentifier="CardContent" id="uE2-O4-oTs" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="Hqe-6Q-pHU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-Sn-WrZ">
+                                <rect key="frame" x="16" y="66" width="343" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="KeK-8J-uly"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mvBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Ow6-yO-6bp">
+                                <rect key="frame" x="0.0" y="146" width="375" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ow6-yO-6bp" secondAttribute="height" multiplier="31:9" id="iab-JG-Aeh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70U-be-4Yh">
+                                <rect key="frame" x="16" y="270.5" width="343" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165" id="2T8-NW-cr4"/>
+                                </constraints>
+                                <string key="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiv-wM-ang">
+                                <rect key="frame" x="0.0" y="460.5" width="375" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="jkq-S8-87X"/>
+                                </constraints>
+                                <state key="normal" title="Do some magic ✨✨ "/>
+                                <connections>
+                                    <action selector="doMagic:" destination="uE2-O4-oTs" eventType="touchUpInside" id="CRu-OZ-aud"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Demo !!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DC5-iw-m0A">
+                                <rect key="frame" x="16" y="26" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="FCl-cb-P7r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ow6-yO-6bp" firstAttribute="leading" secondItem="dGG-Pn-RUm" secondAttribute="leading" id="1b7-ra-mbB"/>
+                            <constraint firstItem="hiv-wM-ang" firstAttribute="top" secondItem="70U-be-4Yh" secondAttribute="bottom" constant="25" id="5Er-AG-ufL"/>
+                            <constraint firstItem="dGG-Pn-RUm" firstAttribute="trailing" secondItem="DC5-iw-m0A" secondAttribute="trailing" constant="16" id="7BZ-ju-Mo7"/>
+                            <constraint firstItem="DC5-iw-m0A" firstAttribute="top" secondItem="dGG-Pn-RUm" secondAttribute="top" constant="6" id="7z5-fp-2fg"/>
+                            <constraint firstItem="Ow6-yO-6bp" firstAttribute="top" secondItem="hlN-Sn-WrZ" secondAttribute="bottom" constant="15" id="Aum-Ou-5mv"/>
+                            <constraint firstItem="dGG-Pn-RUm" firstAttribute="trailing" secondItem="hiv-wM-ang" secondAttribute="trailing" id="M56-i1-POa"/>
+                            <constraint firstItem="hlN-Sn-WrZ" firstAttribute="leading" secondItem="dGG-Pn-RUm" secondAttribute="leading" constant="16" id="SWt-aC-zLo"/>
+                            <constraint firstItem="70U-be-4Yh" firstAttribute="leading" secondItem="dGG-Pn-RUm" secondAttribute="leading" constant="16" id="gxq-JP-18n"/>
+                            <constraint firstItem="hlN-Sn-WrZ" firstAttribute="top" secondItem="DC5-iw-m0A" secondAttribute="bottom" constant="5" id="iF3-Bz-JMw"/>
+                            <constraint firstItem="hiv-wM-ang" firstAttribute="leading" secondItem="dGG-Pn-RUm" secondAttribute="leading" id="itu-DG-DrF"/>
+                            <constraint firstItem="dGG-Pn-RUm" firstAttribute="trailing" secondItem="70U-be-4Yh" secondAttribute="trailing" constant="16" id="kPn-DD-rkY"/>
+                            <constraint firstItem="DC5-iw-m0A" firstAttribute="leading" secondItem="dGG-Pn-RUm" secondAttribute="leading" constant="16" id="l7J-4P-4IU"/>
+                            <constraint firstItem="dGG-Pn-RUm" firstAttribute="trailing" secondItem="hlN-Sn-WrZ" secondAttribute="trailing" constant="16" id="u4e-OQ-Nb5"/>
+                            <constraint firstItem="70U-be-4Yh" firstAttribute="top" secondItem="Ow6-yO-6bp" secondAttribute="bottom" constant="16" id="w9g-JO-LLf"/>
+                            <constraint firstItem="Ow6-yO-6bp" firstAttribute="trailing" secondItem="dGG-Pn-RUm" secondAttribute="trailing" id="zwv-VL-VZd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dGG-Pn-RUm"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuF-mD-c9y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-962" y="-545"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mvBackground" width="1920" height="1080"/>
+    </resources>
+</document>

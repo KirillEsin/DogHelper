@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1030219167186-a3cdo24rp8cqjdeaiuf8uqefj22v7kgg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1030219167186-a3cdo24rp8cqjdeaiuf8uqefj22v7kgg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEafnBYI_WMFWlXuTiz21qweB1pUbPhXo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1030219167186</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.doghelper.ios</string>
+	<key>PROJECT_ID</key>
+	<string>dog-helper</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dog-helper.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1030219167186:ios:25e2ea7f0fcb22bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://dog-helper.firebaseio.com</string>
+</dict>
+</plist>
